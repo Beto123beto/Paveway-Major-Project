@@ -97,6 +97,7 @@ a:hover{
 }
 header a:hover{
     color: white;
+    font-size: 1.3rem;
 }
 .head-box{
     background-image: linear-gradient(to right, rgba(255,0,0,0), #000c1c);
