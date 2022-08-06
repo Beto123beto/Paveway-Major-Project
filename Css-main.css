@@ -37,18 +37,18 @@ header{
    width: 20vw;
 
    height: 5rem;
-    padding-left: 30px;
-    padding-top:3px;
-    padding-right: 14px;
-    padding-bottom: 2px;
+    padding-left: 1.5rem;
+    padding-top:0.5rem;
+    padding-right: 0.9rem;
+    padding-bottom: 0.2em;
     border-radius: 5em;
     position: relative;
-    margin-left: -30px;
+    margin-left: -1.5rem;
     
 
 }
 .logo1{
-    width:50px;
+    width:2.7rem;
     float: right;
 }
 .main-nav{
@@ -57,19 +57,19 @@ margin-left:65vw;
 margin-top:-9vh;
 margin-right:-4vw;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
-font-size: 22px;
+font-size: 1.3rem;
 
 }
 
 .main-nav ul{
     
     background:var(--head-background);
-    padding-left: 30px;
-    padding-right: 10px;
-    padding-top:28px;
+    padding-left: 1.9rem;
+    padding-right: 0.45rem;
+    padding-top:1.95rem;
     height:5rem;
     border-radius: 5em;
-    margin-left: 30px;
+    margin-left: 2rem;
     text-align: left;
     width:33vw;
     
@@ -84,7 +84,7 @@ ul{
 
 li{
     display:inline;
-    padding-right:25px;
+    padding-right:1.1rem;
 }
 a{
 
@@ -93,7 +93,7 @@ a{
 }
 a:hover{
     color:#161336;
-    font-size:16;
+    font-size:0.7rem;
 }
 header a:hover{
     color: white;
@@ -104,8 +104,8 @@ header a:hover{
     position: relative;
    float: right;
 padding-bottom: 10vh;
-   margin-right: -13px;
-   padding-top: 30vh;
+   margin-right: -0.65rem;
+   padding-top: 21.4vh;
    width: 32vw;
   
    color:white;
@@ -114,76 +114,79 @@ padding-bottom: 10vh;
 }
 .head-box h2{
     padding-left:2px;
-    font-size: 65px;
+    font-size: 4rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 
 }
 .head-box p{
-    font-size:45px;
+    font-size:3rem;
 
-    font-weight: 400px;
+    font-weight: 20rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-left:5px;
-    padding-top:13px;
+    padding-left:o.2rem;
+    padding-top:0.8rem;
+    line-height: 3.8rem;
    
 }
 #head-button{
     color:white;
-    padding: 10px 25px;
+    padding: 0.7rem 1.7rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 28px;
     border: none;
     border-radius :40px;
-    background-color: #ecab5b;
+    background: -webkit-linear-gradient( var(--btn-color), #f2af60, #805b2f);
     margin:20px;
-    box-shadow: 1px 3px 5px hsl(30deg 28% 35%);
+    box-shadow: 4px 3px 5px hsl(30deg 28% 35%);
+}
+#head-button:hover{
+    padding: 0.6rem 1.6rem;
+    box-shadow: 2px 1px 2px rgb(207, 118, 29);
+    background-color: -webkit-linear-gradient( var(--btn-color), #5c3f1e, #e0800a);
 }
 .brand{
     display: inline-block;
     width:10vw;
     box-sizing:border-box;
     margin-right: 6vw;
-    font-size: 20px;  
-    padding-top: 11px;
+    font-size: 1.2rem;  
+    padding-top: 0.5rem;
    
 }
 
 .brand img{
-width:70px; 
-padding-top: 30px;
-margin-right: -60px;
-border-radius: 15px;
+width:5rem; 
+padding-top: 1.3rem;
+margin-right: -0.2rem;
+border-radius: 0.7rem;
 }
 .nav-sec h1{
     position: absolute;
     color:#f1ae5d;
     top: 7vh;
-    left: 15vw;
+    left: 17vw;
     font-style: italic;
-    font-size: 37px;
+    font-size: 1.9rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 .nav-sec{
     position: relative;
-margin-top: 2vh;
+margin-top: 1.5vh;
  background: #012257 ;
- height:20vh;
- scale: (50px,40px);
  padding-left:40em;
  border-top:11px solid #012a6c;
  
 }
 .nav-sec > div{
-    margin: 15px;
+    margin: 1rem;
     border-left:1.5px solid  #3d567e;
-    padding-left: 15px;
+    padding-left: 0.7rem;
     height: 19vh;
     margin-top:9px;
-    margin-bottom: 5px;
+    margin-bottom: 0.2rem;
 }
 .brand .inner{
     color:#0343a9;
@@ -192,13 +195,14 @@ margin-top: 2vh;
     border-color:6em solid var(--border-background);
     color:#f1ae5d;
     text-align:center;
-    font-size:35px;
-    margin-top: 6vh;
+    font-size:3.5rem;
+    margin-top: 7.5vh;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .inner{
     float: right;
-    margin-top: 50px;
+    margin-top: 2.1rem;
+
     margin-right: -2%;
 }
 .sec1{
@@ -219,19 +223,22 @@ background-color: var(--border-background);
    background-color:white;
    height:calc(65vh - 10vh);
    width: calc(70vw - 10vh);
-   border-radius:40px;
+   border-radius:1.8rem;
    margin-left:6%;
-   padding: 50px;
-   padding-top:40px;
+   padding: 2.1rem;
+   padding-top:1.6rem;
    box-align:center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+   font-size: medium;
 
   
 }
 .inner-text p{
-    font-size: 25px;
+    font-size: 1.5rem;
     text-align:center;
   font:italic;
-  margin: 10px;
+  margin: 0.6rem;
   
  
 }
@@ -249,10 +256,10 @@ background-color: var(--border-background);
 }
 .float-images div{
 
-    border-radius: 60px;
+    border-radius: 5rem;
     border: 1px solid #f1ae5d;
-    width:120px;
-    height:120px;
+    width:9rem;
+    height:9rem;
     position:absolute;
     z-index:99;
 }
@@ -263,7 +270,7 @@ background-color: var(--border-background);
     margin: top 43vh;
     margin-left:11vw;
     background-image: url(images/pst-yemi.jpg);
-    background-position: 100px 250px;
+    background-position: 4.2rem 8.5rem;
     background-size: cover;
     background-position: center top;
    
@@ -293,26 +300,25 @@ background-color: var(--border-background);
     background-size: cover;
  }
  .box  .image{
-    width:18.8vw;
+    width:18.7vw;
     height:30vh;
-    border-radius: 24px;
-    margin:1px;
-    margin-left:1.75px;
+    border-radius: 1.1rem;
+    margin:0.1rem;
+    margin-left:0.13rem;
     background: url(images/peen-and-alain.jpg);
     background-position: center;
     background-size: cover;
     transition: 2s;
  }
- .box :hover {
-  background-size: 150%;
-  t
+ .box :hover{
+cursor:default;
+background-size:140%;
+
  }
- .lower:hover{
-    width: 16.5vw;
- }
+
  .sec2{
-  margin-top:50px;
-  margin-left: 10vw;
+  margin-top:2rem;
+  margin-left: 11rem;
   height: 110vh;
   width:80vw;
   align-content: center;
@@ -323,21 +329,21 @@ background-color: var(--border-background);
     width:19vw;
 display: inline-block;
 background: #e3e3e3;
-border-radius:24px;
-margin: 4px;
+border-radius:1.5rem;
+margin: 0.4rem;
   
 
 }
 .sec2 .lower{
     width:16vw;
     min-height: 12em ;
-    border-radius: 24px;
+    border-radius: 1.5rem;
     background-color: white;
-    padding:13px;
+    padding:1rem;
     margin:-4vh 26px 3vh;
     position:relative;
     z-index:1;
-    font-size:18px;
+    font-size:1.4rem;
  
 }
 .sec2 .image{
@@ -348,19 +354,23 @@ margin: 4px;
     background-color: var(--btn-color);
     background: -webkit-linear-gradient( var(--btn-color), #f2af60, #805b2f);
     float:right;
-     border: solid var(--btn-color);
+     border: none;
     width:30%;
-    padding-top:2px;
-    padding-bottom: 3px;
-    border-radius: 14px;
+    padding-top:0.4rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.8rem;
+    margin: 0.2rem;
     color: white;
+    position: relative;
 
 }
 .btn-box:hover{
-    color:rgb(2, 2, 2);
     background-color: rgb(66, 32, 218);
-    font-size: 19px;
-    width: 31%;
+    font-size: 0.7rem;
+    width: 28%;
+    cursor: pointer;
+
+    padding:0.5rem ;
 }
 .lower h3{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -375,21 +385,21 @@ margin: 4px;
 }
 .btn-floating{
     /* position: absolute; */
-    margin: 20px 11px;
-    margin-left: 26px;
-    font-size: 100px;;
+    margin: 0.8rem  0.6rem;
+    margin-left: 1.2rem;
+    font-size: 4.3rem;
 }
 .testimonials{
     background-color: #e3e3e3;
     width: 26vw;
-    height: 29vh;;
-    padding: 10px;
-    padding-left: 10;
+    height: 30vh;;
+    padding: 0.7rem;
+    padding-left: 0.6vw;
     margin-left: 1vw;
-    margin-top: 3.5vh;
+    margin-top: 3vh;
     /* display: inline-block; */
-    border-radius: 20px;
-    margin-bottom: 60px;
+    border-radius: 0.9rem;
+    margin-bottom: 3rem;
     
 }
 .main-testimonial{
@@ -399,33 +409,34 @@ margin: 4px;
     overflow-x: hidden;
 }
 .testimonials:hover{
-    width:26.3vw;
+    width:26.1vw;
     background-color: #012257;
-    padding-left: 11px;
+    padding-left: 0.5vw;
+    border:0.4px solid white;
 }
 .testimonials .t-image video{ 
     background-color: rgb(0, 0, 0);
     width: 13vw;
     height: 26vh;
-    border-radius: 20px;
+    border-radius: 0.8rem;
 }
 .testimonials .gen1{
     float: left;
-    margin: 5px;
-    padding: 3px;
+    margin: 0.24rem;
+    padding: 0.15rem;
 }
 .testimonials .t-details{
     background-color: white;
-    padding: 3vh 4px 4px 8px;
+    padding: 3vh 0.2rem 0.2rem 0.4rem;
     width: 10vw;
     height: 26vh;
-    border-radius: 20px;
+    border-radius: 0.8rem;
 }
 .testimonials .t-details p{
     font-size: 20px;
     font-weight:600px ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 12px;
+    padding: 0.5rem;
     color: hsl(0deg 0% 89%);
 }
 .testimonials .t-details img{
@@ -442,9 +453,9 @@ footer{
     height: 29vh;
     background-color: #012257;
     color:white;
-    padding: 15px;
-    padding-top:40px;
-    margin-bottom:-10px;
+    padding: 0.6rem;
+    padding-top:2.6rem;
+    margin-bottom:-0.5rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
     margin-bottom: -50em;
@@ -452,9 +463,9 @@ footer{
 }
 footer div{
 width:18vw;
-font-size:18.5px;
+font-size:1.2rem;
 justify-content:first baseline;
-margin-bottom:-50px
+margin-bottom:-2.1rem;
 
 }
 footer a{
@@ -462,10 +473,10 @@ footer a{
 }
 footer li{
     display:block;
-    padding-top:7px;
+    padding-top:0.4rem;
 }
 footer .foot{
-    margin-right: -25px;
+    margin-right: -1.1rem;
 }
 footer .attach-footer{
 position: absolute;
@@ -482,13 +493,13 @@ footer form{
 }
 footer form input{
 padding:5px;
-width: 10vw;
+width: 10.2vw;
 height: 4vh;
 background: rgba(255,0,0,0);
 border: 1.4px solid white;
-border-radius:4px;
+border-radius:0.4rem;
 color: white;
-font-size: 19px;
+font-size: 1.3rem;
 
 } 
 footer button{
@@ -497,8 +508,14 @@ footer button{
     height: 4vh;
     padding:5px;
     background-color: white;
+font-size: 1.2rem;
 }
 footer button:hover{
     color: white;
-    background-color: rgb(140, 140, 199);
+    background-color: rgb(190, 190, 214);
+    width: 7rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    position: absolute;
+    margin-left: 0.2rem;
 }
