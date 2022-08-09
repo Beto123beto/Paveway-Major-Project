@@ -93,7 +93,7 @@ a{
 }
 a:hover{
     color:#161336;
-    font-size: 1.3rem;
+    font-size:0.7rem; 
 }
 header a:hover{
     color: white;
@@ -179,6 +179,7 @@ margin-top: 1.5vh;
  background: #012257 ;
  padding-left:40em;
  border-top:11px solid #012a6c;
+ display: ;
  
 }
 .nav-sec > div{
@@ -451,7 +452,7 @@ footer{
     display: -webkit-flex;
     display: flex;
     width: 100vw;
-    height: 29vh;
+    height: 30vh;
     background-color: #012257;
     color:white;
     padding: 0.6rem;
