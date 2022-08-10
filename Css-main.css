@@ -155,7 +155,27 @@ padding-bottom: 10vh;
     margin-right: 6vw;
     font-size: 1.2rem;  
     padding-top: 0.5rem;
+
    
+}
+@keyframes move {
+    0%{
+        left:10vw;
+    }
+    25%{
+        left: 20vw;
+    }
+    50%{
+        left:30vw;
+    }
+    75%{
+        left: 40vw;
+    }
+    100%{
+        left: default;
+    }
+
+    
 }
 
 .brand img{
@@ -179,7 +199,6 @@ margin-top: 1.5vh;
  background: #012257 ;
  padding-left:40em;
  border-top:11px solid #012a6c;
- display: ;
  
 }
 .nav-sec > div{
@@ -404,55 +423,24 @@ margin: 0.4rem;
     margin-bottom: 3rem;
     
 }
-.main-testimonial{
+.product{
     display: flex;
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
 }
-.testimonials:hover{
+.product-card:hover{
     width:26.1vw;
     background-color: #012257;
-    padding-left: 0.5vw;
+    padding-left: 0.7vw;
     border:0.4px solid white;
-}
-.testimonials .t-image video{ 
-    background-color: rgb(0, 0, 0);
-    width: 13vw;
-    height: 26vh;
-    border-radius: 0.8rem;
-}
-.testimonials .gen1{
-    float: left;
-    margin: 0.24rem;
-    padding: 0.15rem;
-}
-.testimonials .t-details{
-    background-color: white;
-    padding: 3vh 0.2rem 0.2rem 0.4rem;
-    width: 10vw;
-    height: 26vh;
-    border-radius: 0.8rem;
-}
-.testimonials .t-details p{
-    font-size: 20px;
-    font-weight:600px ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0.5rem;
-    color: hsl(0deg 0% 89%);
-}
-.testimonials .t-details img{
-   width: 1.5vw;
-   margin-top: 9vh;
-   margin-left: 7.5vw;
-   
 }
 
 footer{
     display: -webkit-flex;
     display: flex;
     width: 100vw;
-    height: 30vh;
+    height: 29vh;
     background-color: #012257;
     color:white;
     padding: 0.6rem;
