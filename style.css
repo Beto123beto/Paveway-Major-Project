@@ -1,0 +1,134 @@
+.product {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    width: 80%;
+    justify-content: center;
+    margin-left: 12%;
+    margin-bottom: 6%;
+    margin-top: 3%;
+    padding-left: 5vw;;
+  }
+
+  
+  
+  .product-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 40vh;
+    padding-top:2% ;
+    margin-left: -22em;
+    padding-left: 12%;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .product-card {
+    flex: 0 0 auto;
+    width:50%;
+    height: 32vh;
+    margin-right: 7%;
+    padding: 2%;
+    background-color: #e3e3e3;
+    display: inline-flex;
+    border-radius: 5%;
+
+  }
+  
+  .product-image video {
+    position: relative;
+    width: 14vw;
+    min-height: 28vh;
+    overflow: auto;
+    margin-top: 0.2vh;
+    background-color: black;
+    border-radius: 5%;
+    margin-right: 0.8vw;
+  }
+  
+  
+ 
+  .product-info {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+  }
+  
+  
+ 
+  
+
+  
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    height: 5em;
+    width: 0.5em;
+    font-size: 7.6em;
+    position: absolute;
+    top: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    background-color: #022b6d;
+    background-size: 25%;
+    
+  }
+  
+  .pre-btn {
+    left: 0%;
+    transform: rotate(180deg);
+    z-index: 99;
+    margin-right: 0px;
+    padding: 3%;
+    margin-left:-1px;
+   
+
+ 
+  }
+  
+  .nxt-btn {
+    right: 6.9%;
+    z-index: 99;
+    margin-right: 0px;;
+
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+  }
+  
+  .pre-btn:hover,
+  .nxt-btn:hover {
+    color: white;
+    font-size:8em
+  }
+  .product-info img{
+    position: relative;
+    width: 19%;
+    top: 5.6vw;
+    left:7.6vw;
+  }
+  .product-info p{
+    font-size: 20px;
+    font-weight:600p;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem;
+    color: hsl(0deg 0% 89%);
+  }
+  .product-info{
+    background-color: white;
+    padding: 3vh 0.2rem 0.2rem 0.4rem;
+    width: 10vw;
+    height: 27.5vh;
+    border-radius: 0.8rem;
+  }
+  
