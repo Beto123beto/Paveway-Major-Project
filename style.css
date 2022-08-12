@@ -9,7 +9,18 @@
     margin-top: 3%;
     padding-left: 5vw;;
   }
-
+  .slow-spin {
+    -webkit-animation: fa-spin 6s infinite linear;
+    animation: fa-beat-fade 3s infinite linear;
+  }
+  .slow-spin1 {
+    -webkit-animation: fa-spin 6s infinite linear;
+    animation: fa-flip 4s infinite linear;
+  }
+  .slow-spin2 {
+    -webkit-animation: fa-spin 6s infinite linear;
+    animation: fa-bounce 3s infinite linear;
+  }
   
   
   .product-container {
