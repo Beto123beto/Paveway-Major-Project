@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="Css-main.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -55,12 +56,12 @@
             <div class="head-box">
                 <h2 class="box-head-title">Catchy Points</h2>
                 <p class="head-instruction">We Will Be Writing <br> Some Catchy Points <br> Here Read</p>
-                <button id="head-button"><span>Call to Action</span></button>
+                <button class="fa-beat-fade" id="head-button"><span>Call to Action</span></button>
             </div>
         </div>
    
-    <nav class="nav-sec">
-   <h1>Brands Using Us</h1>
+    <nav class="nav-sec   ">
+   <h1 >Brands Using Us</h1>
 
         <div class="brand">
             <img  src="images/pavewaylogo.png" alt="paveWay-Logo">
@@ -124,10 +125,10 @@
 
     <h1 class="section-head">Who We Are</h1>
     <div class="float-images">
-        <div class="img-1 gen"></div>
-        <div class="img-2 gen"></div>
-        <div class="img-3 gen"></div>
-        <div class="img-4 gen"></div>
+        <div class="img-1 fa-bounce"></div>
+        <div class="img-2 fa-bounce"></div>
+        <div class="img-3 fa-flip"></div>
+        <div class="img-4 fa-flip fa-1x"></div>
         
           </div>
     <section class="sec1 sec ">
@@ -524,8 +525,8 @@
         &copy; Brand Buzz Digital 2022
     </div>
 </footer>
-<script ">
-         const productContainers = [...document.querySelectorAll('.product-container')];
+<script>
+    const productContainers = [...document.querySelectorAll('.product-container')];
 const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
 const preBtn = [...document.querySelectorAll('.pre-btn')];
 
@@ -541,7 +542,5 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
-         </script>
-</body>
-
+</script>
 </html>
