@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    --genYel: #c89f6f;
+    --head-background:#012257;
+    background:url(images/Background_Logo.svg) repeat #022b6d;
+  height:100vh;
+    --border-background:#e3e3e3;
+    --btn-color: #f2b05c;
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
+}
+header{
+    /* overflow: hidden; */
+    overflow:hidden;
+}
+.logo-icon{
+    background:var(--head-background);
+   width: 20vw;
+
+   height: 5rem;
+    padding-left: 1.5rem;
+    padding-top:0.5rem;
+    padding-right: 0.9rem;
+    padding-bottom: 0.2em;
+    border-radius: 5em;
+    position: relative;
+    margin-left: -1.5rem;
+    
+
+}
+.logo1{
+    width:2.7rem;
+    float: right;
+}
+.main-nav{
+    float:right;
+margin-left:65vw;
+margin-top:-9vh;
+margin-right:-4vw;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1.3rem;
+
+}
+
+.main-nav ul{
+    
+    background:var(--head-background);
+    padding-left: 1.9rem;
+    padding-right: 0.45rem;
+    padding-top:1.95rem;
+    height:5rem;
+    border-radius: 5em;
+    margin-left: 2rem;
+    text-align: left;
+    width:33vw;
+    
+
+} 
+ul{
+    list-style: none;
+    float: left;
+
+   
+}
+
+li{
+    display:inline;
+    padding-right:1.1rem;
+}
+a{
+
+    text-decoration:none;
+    color:var(--genYel);
+}
+a:hover{
+    color:#161336;
+    font-size:0.7rem; 
+}
+header a:hover{
+    color: white;
+    font-size: 1.3rem;
+}
+.brand .inner{
+    color:#0343a9;
+}
+.section-head{
+    border-color:6em solid var(--border-background);
+    color:#f1ae5d;
+    text-align:center;
+    font-size:3.5rem;
+    margin-top: 7.5vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inner{
+    float: right;
+    margin-top: 2.1rem;
+
+    margin-right: -2%;
+}
+.sec1{
+    max-width:80%;
+    max-height: 90vh;
+    position:relative;
+    border-radius:40px;
+    margin-left:13vw;
+    /* margin-top:5%; */
+    padding-top:5vh;
+    padding-bottom: 4%;
+background-color: var(--border-background);
+}
+.float-images{
+    position: relative;
+}
+.inner-text{
+    position: relative;
+   background-color:white;
+   max-height:70vh;
+   max-width: 88%;
+   border-radius:1.8rem;
+   margin-left:6%;
+   padding: 2.1rem;
+   padding-top:-10%;
+   margin-top: 2%;
+   padding-bottom: -20;
+   box-align:center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+   font-size: 3rem;
+
+  
+}
+.inner-text p{
+    font-size: 50%;
+    text-align:center;
+  font:italic;
+  margin: 0.6rem;
+  
+ 
+}
+.float-images{
+    position: absolute;
+
+}
+.nav-sec .brand:hover{
+    background-color: #012a6c;
+
+}
+
+.float-images div{
+
+    border-radius: 5rem;
+    border: 1px solid #f1ae5d;
+    width:9rem;
+    height:9rem;
+    position:absolute;
+    z-index:99;
+}
+.float-images .gen{
+    background-repeat:  no-repeat;
+}
+.img-1{
+    top: -2rem;
+    left:12rem;
+    background-image: url(images/pst-yemi.jpg);
+    background-position: 4.2rem 8.5rem;
+    background-size: cover;
+    background-position: center top;
+   
+}
+.img-2{
+    top: 57vh;
+    left: 80vw;
+   background-image: url(images/peen-and-alain.jpg);
+   background-position: center top;
+   background-size: cover;
+
+   
+}
+.img-3{
+    top: -8vh;
+    left:74vw;
+
+    background-image: url(images/penn1.jpg);
+    background-position: 65% top;
+    background-size: 200%;
+   
+ }
+ .img-4{
+    top: 57vh;
+    left: 18vw;
+    background-image: url(images/alain.jpg);
+    background-position: center top;
+    background-size: cover;
+ }
+ .box  .image{
+    width:18.7vw;
+    height:30vh;
+    border-radius: 1.1rem;
+    margin:0.1rem;
+    margin-left:0.13rem;
+    background: url(images/peen-and-alain.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 2s;
+ }
+ .box :hover{
+cursor:default;
+background-size:140%;
+
+
+ }
+.msn-vsn{
+    display: block;
+    margin-top: 10vh;
+    align-items: right;
+    justify-content: center;
+    margin-left: 13vw;
+}
+.msn-vsn .msn-vsn-by{
+    max-width:45%;
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 1%;
+
+    
+   
+}
+.msn-vsn .msn-vsn-by .head2{
+    background-color: white;
+
+    border-radius: 3vh;
+    padding: 2%;
+    font-size: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.msn-vsn  .body2{
+    background-color: white;
+    font-size: 26px;
+    padding: 6%;
+    margin-top: 3% ;
+    border-radius: 4vh;
+    font-weight: bold;
+}
+.msn-vsn3{
+    display: block;
+    margin-top: 6vh;
+    align-items: right;
+    justify-content: center;
+    margin-left: 12vw;
+}
+.msn-vsn3 .msn-vsn-by{
+    max-width:28%;
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 1%;
+    margin-left: 14vw;
+    margin-bottom: 5vh;
+
+    
+   
+}
+.msn-vsn3 .gen{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 20rem;
+    background: url(images/penn1.jpg);
+    background-position: 70% -2%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    position: absolute;
+}
+.msn-vsn3  .img1{
+    left: 52vw;
+}
+.msn-vsn3 .msn-vsn-by .head2{
+    background-color: white;
+
+    border-radius: 3vh;
+    padding: 2%;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.msn-vsn3  .body2{
+    background-color: white;
+    font-size: 26px;
+    padding: 10%;
+    margin-top: 3% ;
+    border-radius: 4vh;
+    font-weight:550;
+    font-style: italic;
+}
+.msn-vsn3 .fa-flip{
+animation-duration: 4s;
+
+}
+.msn-vsn3 .first{
+    animation-delay:3s;
+}
+
+
+footer{
+    display: -webkit-flex;
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #012257;
+    color:white;
+    padding: 0.6rem;
+    padding-top:2.6rem;
+    margin-bottom:-0.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: -50em;
+    padding-bottom:4em;
+    padding-left: 20%;
+}
+footer div{
+width:18vw;
+font-size:1.2rem;
+margin-bottom:-2.1rem;
+
+}
+footer a{
+    color: white;
+}
+footer li{
+    display:block;
+    padding-top:0.4rem;
+}
+footer .foot{
+    margin-right: -1.1rem;
+}
+footer .attach-footer{
+position:relative ;
+display: absolute;
+    margin-top:11.5em;
+    font-style: italic;
+    margin-left: -55%;
+
+    
+}
+/* /* footer form{
+    display: inline;
+} */
+footer form{
+    margin:10px;
+}
+footer form input{
+padding:5px;
+width: 10.2vw;
+height: 4vh;
+background: rgba(255,0,0,0);
+border: 1.4px solid white;
+border-radius:0.4rem;
+color: white;
+font-size: 1.1rem;
+
+} 
+footer button{
+    border-radius:6px;
+    min-width: 2vw;
+    min-height: 4vh;
+    padding:5px;
+    background-color: white;
+font-size: 1.1rem;
+}
+footer button:hover{
+    color: white;
+    background-color: rgb(190, 190, 214);
+    width: 7rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    position: absolute;
+    margin-left: 0.2rem;
+}

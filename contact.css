@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+body{
+    --genYel: #c89f6f;
+    --head-background:#012257;
+    background:url(images/map.png) repeat #022b6d;
+  height:100vh;
+    --border-background:#e3e3e3;
+    --genFont: Verdana, Geneva, Tahoma, sans-serif;
+    --btn-color: #f2b05c;
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
+}
+
+.logo-icon{
+    background:var(--head-background);
+   width: 20vw;
+
+   height: 5rem;
+    padding-left: 1.5rem;
+    padding-top:0.5rem;
+    padding-right: 0.9rem;
+    padding-bottom: 0.2em;
+    border-radius: 5em;
+    position: relative;
+    margin-left: -1.5rem;
+    
+
+}
+.logo1{
+    width:2.7rem;
+    float: right;
+}
+.main-nav{
+    float:right;
+margin-left:65vw;
+margin-top:-9vh;
+margin-right:-4vw;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1.3rem;
+
+}
+
+.main-nav ul{
+    
+    background:var(--head-background);
+    padding-left: 1.9rem;
+    padding-right: 0.45rem;
+    padding-top:1.95rem;
+    height:5rem;
+    border-radius: 5em;
+    margin-left: 2rem;
+    text-align: left;
+    width:33vw;
+    
+
+} 
+ul{
+    list-style: none;
+    float: left;
+
+   
+}
+
+li{
+    display:inline;
+    padding-right:1.1rem;
+}
+a{
+
+    text-decoration:none;
+    color:var(--genYel);
+}
+a:hover{
+    color:#161336;
+    font-size:0.7rem; 
+}
+header a:hover{
+    color: white;
+    font-size: 1.3rem;
+}
+.form-con{
+    background-color: #022b6d;
+    min-height: 55vw;
+    border-radius:60%;
+    max-width: 55vw;
+    padding: 14vh 10vw 2vh 17vw;
+    color: hsl(33deg 85% 66%);
+    font-family: var(--genFont);
+    margin-left: 42vw;
+    margin-top: -6vh;
+
+}
+.form-con .fill{
+    display: block;
+    padding-left: 2%;
+    color: var(--btn-color)
+}
+.form-con .fill{
+    min-width: 20vw;
+    min-height: 6vh;
+    border-radius: 10vh;
+    margin: 4% 0%;
+}
+.form-con h1{
+    text-align: center;
+    margin-left: -28%;
+    padding-bottom: 8%;
+    font-size: 58px;
+}
+.form-con .message{
+    height: 18vh;
+    border-radius: 1vh;
+    padding: top -23px;
+    padding-bottom: 14.6vh;
+}
+.form-con .radio{
+    color: white;
+    font-weight: bolder;
+
+}
+.radio label{
+    padding:2%;
+   
+  
+}
+.radio{
+    margin-left: -8%;
+}
+.form-con input{
+    border: 2px solid var(--btn-color);
+
+}
+.form-con .btn-form{
+min-width: 10vw;
+font-size: 24px;
+height: 4.8vh;
+border-radius: 10vh;
+margin-top: 5%;
+justify-content: center;
+text-align: center;
+background: -webkit-linear-gradient( var(--btn-color), #f2af60, #805b2f);
+margin-left: 4.5vw;
+border: none;
+color: white;
+}
+form .btn-form:hover{
+    height: 4.9vh;
+    width: 10.2vw;
+}
+form .btn-form:active{
+    height: 4.9vh;
+    width: 10.2vw;
+    background-color: white;
+    color: orange;
+}
+
+form a:hover{
+color: white;
+font-size: 100%;
+}
+.radio input{
+   padding: 10em;
+   accent-color: #f2b05c;
+   font-size: 20em;
+   color-scheme: white;
+
+
+}
+form i{
+   padding-right: 6%;
+   opacity: 60%;
+}
+form .social-icon{
+    margin-left: 20%;
+    padding-top: 3%;
+    font-size: 1.8rem;
+}
+form .one{
+    background: url("fontawesome-free-6.1.2-web/svgs/regular/user2.svg") no-repeat white;
+    background-position: 96% 40%;
+    background-size: 8%;
+}
+form .two{
+     background: url("fontawesome-free-6.1.2-web/svgs/solid/exclamation.svg") no-repeat white;
+     background-position: 94% 40%;
+     background-size: 3%;
+    }
+
+footer{
+    display: -webkit-flex;
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #012257;
+    color:white;
+    padding: 0.6rem;
+    padding-top:2.6rem;
+    margin-bottom:-0.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: -50em;
+    padding-bottom:4em;
+    padding-left: 20%;
+}
+footer div{
+width:18vw;
+font-size:1.2rem;
+margin-bottom:-2.1rem;
+
+}
+footer a{
+    color: white;
+}
+footer li{
+    display:block;
+    padding-top:0.4rem;
+}
+footer .foot{
+    margin-right: -1.1rem;
+}
+footer .attach-footer{
+position:relative ;
+display: absolute;
+    margin-top:11.5em;
+    font-style: italic;
+    margin-left: -55%;
+
+    
+}
+/* /* footer form{
+    display: inline;
+} */
+footer form{
+    margin:10px;
+}
+footer form input{
+padding:5px;
+width: 10.2vw;
+height: 4vh;
+background: rgba(255,0,0,0);
+border: 1.4px solid white;
+border-radius:0.4rem;
+color: white;
+font-size: 1.1rem;
+
+} 
+footer button{
+    border-radius:6px;
+    min-width: 2vw;
+    min-height: 4vh;
+    padding:5px;
+    background-color: white;
+font-size: 1.1rem;
+}
+footer button:hover{
+    color: white;
+    background-color: rgb(190, 190, 214);
+    width: 7rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    position: absolute;
+    margin-left: 0.2rem;
+}
+
